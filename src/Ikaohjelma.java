@@ -2,7 +2,7 @@
 public class Ikaohjelma {
 
 	public static void main(String[] args) {
-		int ika = 50;
+		int ika = 41;
 
 		if (ika >= 0 && ika < 18) {
 			System.out.println("Olet alaikäinen");
@@ -27,9 +27,15 @@ public class Ikaohjelma {
 			System.out.println("Onnea!");
 			System.out.println("Onnea!");
 		}
+		else if (ika >58 && ika <65) {
+			System.out.println("Voit mennä varhaiseläkkeelle");
+		}
 		else if(ika >= 65)
 		{
-			System.out.println("Olet eläkeläinen");
+			System.out.println("Hyviä eläkepäiviä!");
+		}
+		else if (ika >40 && ika <50) {
+			System.out.println("Parasta keski-ikää!");
 		}
 
 		else {
